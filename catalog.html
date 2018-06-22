@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Device</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="icon" type="image/png" href="favicon-96x96.png" sizes="96x96">
+</head>
+<body>
+<!-- Header -->
+<header>
+  <nav class="main-nav container monopods">
+    <a class="logo" href="index.html"><span>Gorbushka</span></a>
+    <section class="main-nav__user-panel">
+      <h3 class="visually-hidden">main-nav section</h3>
+      <form action="/action_page.php" class="user-panel__search" method="post">
+        <button class="btn-search" type="submit">
+          <img src="img/search.png" alt="search" width="16" height="16">
+        </button>
+        <input class="search" type="search" name="search" placeholder="Поиск по сайту">
+      </form>
+      <ul class="user-panel__user-action">
+        <li class="user-panel__login-link">
+          <img src="img/user.png" alt="user" width="13" height="12">
+          <a href="#">Войти</a>
+        </li>
+        <li class="user-panel__comparison">
+          <img src="img/compare.png" alt="compare" width="10" height="10">
+          <a href="#">Сравнить</a>
+        </li>
+        <li class="user-panel__basket">
+          <img src="img/cart.png" alt="cart" height="12" width="12">
+          <a href="#">Корзина</a>
+        </li>
+      </ul>
+    </section>
+    <ul class="main-nav_menu-name">
+      <li class="main-nav__goods">
+        <label for="menu-toggle">Каталог товаров</label>
+        <input type="checkbox" id="menu-toggle">
+        <div id="menu" class="hidden">
+          <ul>
+            <li class="#"><a href="catalog.html">Виртуальная реальность</a></li>
+            <li class="#"><a href="#">Моноподы для селфи</a></li>
+            <li class="#"><a href="#">Экшн-камеры</a></li>
+          </ul>
+          <ul>
+            <li class="#"><a href="#">Фитнес-браслеты</a></li>
+            <li class="#"><a href="#">Умные часы</a></li>
+          </ul>
+          
+          <ul>
+            <li class="#"><a href="#">Квадрокоптеры</a></li>
+          </ul>
+        </div>
+      </li>
+      <li>
+        <ul class="main-nav__services">
+          <li class=""><a href="#">Доставка</a></li>
+          <li class=""><a href="#">Гарантия</a></li>
+          <li class=""><a href="#">Контакты</a></li>
+        </ul>
+      </li>
+    </ul>
+  
+  </nav>
+</header>
+
+<!-- Content -->
+<main>
+  <section class="catalog-heading container">
+    <h1>Моноподы для селфи</h1>
+    <ul class="catalog-heading__bread-crumbs">
+      <li><a href="index.html">Главная</a></li>
+      <li><a href="index.htm">Каталог товаров</a></li>
+      <li><a href="index.htm">Моноподы для селфи</a></li>
+    </ul>
+  </section>
+  <section class="panel-filter">
+    <div class="panel-filter__wrap container">
+      <div class="panel-filter__heading-left">
+        <h2 class="panel-filter__h3">Фильтр:</h2>
+      </div>
+      <div class="panel-filter__sort-right">
+        <ul class="panel-filter__list">
+          <li><h2 class="panel-filter__list--h3">Сортировка:</h2></li>
+          <li><a href="">По цене</a></li>
+          <li><a href="">По типу</a></li>
+          <li><a href="">По популярнсти</a></li>
+        </ul>
+        <ul class="panel-filter__arrows">
+          <li class="arrow-up"><a href="#"></a></li>
+          <li class="arrow-down"><a href="#"></a></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+  <div class="goods__wrap ">
+    <div class="container filter__wrap">
+      <section class="filter__goods--left">
+        <h3 class="visually-hidden">filter section</h3>
+        <div class="filter">
+          <div class="filter__colors ">
+            <div class="filter__range">
+              <h3>Стоимость</h3>
+              <div class="filter__controls">
+                <div class="filter__scale content-box-component">
+                  <div class="bar"></div>
+                  <div class="label-wrap">
+                    <label>
+                      <span class="filter__scale--text">от</span>
+                      <input type="text" name="min-price" value="0">
+                    </label>
+                    <label>
+                      <span class="filter__scale--text">до</span>
+                      <input type="text" name="max-price" value="5000">
+                    </label>
+                  </div>
+                
+                </div>
+              </div>
+            </div>
+            <div class="filter__color">
+              <h3>Цвет</h3>
+              <ul>
+                <li>
+                  <input type="checkbox" id="black">
+                  <label for="black">Черный</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="white">
+                  <label for="white">Белый</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="blue">
+                  <label for="blue">Синий</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="red">
+                  <label for="red">Красный</label>
+                </li>
+                <li>
+                  <input type="checkbox" id="pink">
+                  <label for="pink">Розовый</label>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="filter__bluetooth">
+            <form action="/action_page.php">
+              <h3>Blueooth</h3>
+              <ul>
+                <li>
+                  <input type="radio" name="blueooth">
+                  <span>Есть</span>
+                </li>
+                <li>
+                  <input type="radio" name="blueooth">
+                  <span>Нет</span>
+                </li>
+              </ul>
+            </form>
+          </div>
+          <div class="btn-decoration">
+            <button type="button">Показать</button>
+            <div class="wrap-decoration"></div>
+          </div>
+        </div>
+      </section>
+      <section class="goods__wrap">
+        <h3 class="visually-hidden">goods section</h3>
+        <div class="filter__goods--right">
+          <article class="goods__item">
+            <div class="img-wrap ">
+              <img src="img/item-1.png" alt="Товар" height="380" width="360">
+              <div class="add-to-basket"><span>В корзину</span></div>
+            </div>
+            <div class="item__wrap">
+              <h3>Любительская селфи-палка</h3>
+              <span>500 руб.</span>
+            </div>
+          </article>
+          <article class="goods__item">
+            <div class="img-wrap ">
+              <img src="img/item-2.png" alt="Товар" height="380" width="360">
+              <div class="add-to-basket"><span>В корзину</span></div>
+            </div>
+            <div class="item__wrap">
+              <h3>Профессиональная <br>селфи-палка</h3>
+              <span>1500 руб.</span>
+            </div>
+          </article>
+          <article class="goods__item">
+            <div class="img-wrap ">
+              <img src="img/item-3.png" alt="Товар" height="380" width="360">
+              <div class="add-to-basket">
+                <span>В корзину</span>
+              </div>
+            </div>
+            <div class="item__wrap">
+              <h3>Непотопляемая селфи-палка</h3>
+              <span>2 500 руб.</span>
+            </div>
+          </article>
+          <article class="goods__item ">
+            <div class="img-wrap ">
+              <img src="img/item-4.png" alt="Товар" class="new" height="380" width="360">
+              <div class="add-to-basket"><span>В корзину</span></div>
+            </div>
+            <div class="item__wrap">
+              <h3>Селфи-палка «Следуй за мной»</h3>
+              <span>4 900 руб.</span>
+            </div>
+          </article>
+          <div class="goods__bottom-menu">
+            <ul>
+              <li><a>Назад</a></li>
+            </ul>
+            <ul class="goods__ul">
+              <li class="goods__ul--active"><a>1</a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+            </ul>
+            <ul class="goods__next--active">
+              <li><a href="#">Вперед</a></li>
+            </ul>
+          
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+</main>
+<!-- Footer -->
+<footer>
+  <div class="container">
+    <div class="footer-top ">
+      <a href="#" class="logo">Gorbushka</a>
+      <ul class="footer__user-panel">
+        <li class="user-panel__login-link">
+          <img src="img/user-yellow.png" alt="user" width="13" height="12">
+          <a href="#">Войти</a>
+        </li>
+        <li class="user-panel__comparison">
+          <img src="img/compare-yellow.png" alt="compare" width="10" height="10">
+          <a href="#">Сравнить</a>
+        </li>
+        <li class="user-panel__basket">
+          <img src="img/cart-yellow.png" alt="cart" height="12" width="12">
+          <a href="#">Корзина</a>
+        </li>
+      </ul>
+    </div>
+    <div class="footer-middle ">
+      <p>г. Москва, ул. Строителей, 15</p>
+      <ul class="footer__menu">
+        <li class="footer__menu-li">
+          <a href="#"><span>Доставка</span></a>
+        </li>
+        <li class="">
+          <a href="#"><span>Гарантия</span></a>
+        
+        </li>
+        <li class="">
+          <a href="#"><span>Контакты</span></a>
+        </li>
+      
+      </ul>
+      <p>Тел. +7(495) 495-95-95</p>
+    </div>
+    <div class="footer-bottom ">
+      <div class="footer__social">
+        <a href="#"><img src="img/fb.png" height="32" width="32" alt="fb"></a>
+        <a href="#"><img src="img/tw.png" height="32" width="32" alt="tw"></a>
+        <a href="#"><img src="img/inst.png" height="32" width="32" alt="inst"></a>
+      </div>
+      <div class="footer__copyright">
+        <a href="https://makarovas.github.io/Portfolio/">@makarofalex</a>
+      </div>
+    </div>
+  </div>
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.js"
+  integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+  crossorigin="anonymous"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
