@@ -17,7 +17,7 @@ html {
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: 'OpenSans-regular', Helvetica, sans-serif;
+  font-family: "OpenSans-regular", Helvetica, sans-serif;
   font-size: 15px;
   font-weight: 400;
   line-height: 1;
@@ -73,7 +73,7 @@ blockquote, q {
 
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
+  content: "";
 }
 
 a {
@@ -156,7 +156,7 @@ header {
 nav {
   background-color: #f7e296;
   color: #000;
-  font-family: 'Gilroyextra-bold', 'PT Sans', sans-serif;
+  font-family: "Gilroyextra-bold", "PT Sans", sans-serif;
   
   font-size: 18px;
   font-weight: 800;
@@ -172,7 +172,7 @@ nav {
 }
 
 nav .logo {
-  font-family: 'Gilroyextra-bold', 'PT Sans', sans-serif;
+  font-family: "Gilroyextra-bold", "PT Sans", sans-serif;
   font-size: 48px;
   font-weight: 800;
   left: 60px;
@@ -200,7 +200,7 @@ nav .logo {
   
   display: flex;
   flex-direction: row;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 18px;
   font-weight: 800;
   justify-content: space-between;
@@ -229,7 +229,7 @@ label {
 
 .main-nav__goods::after {
   background: #000;
-  content: '';
+  content: "";
   height: 2px;
   opacity: 0.3;
   position: absolute;
@@ -241,7 +241,7 @@ label {
 
 .main-nav__goods::before {
   background: #000;
-  content: '';
+  content: "";
   height: 16px;
   opacity: 0.3;
   position: absolute;
@@ -258,7 +258,7 @@ label {
   flex-direction: row;
   
   /*transition: visibility 0.05s, opacity 0.2s linear;*/
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 15px;
   
   font-weight: 300;
@@ -312,7 +312,7 @@ label {
 input[type="search"] {
   background-color: #f7e296;
   border: 0;
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 15px;
   letter-spacing: 0.01em;
   line-height: 36px;
@@ -324,7 +324,7 @@ input[type="search"] {
 .main-nav__user-panel {
   display: flex;
   flex-direction: row;
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 15px;
   font-weight: 300;
   justify-content: space-between;
@@ -398,7 +398,7 @@ input[type="search"] {
 }
 
 .slider__products-heading {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   
   font-size: 47px;
   
@@ -419,7 +419,7 @@ input[type="search"] {
 
 .slider__products::before {
   background-color: #ffffff;
-  content: '';
+  content: "";
   height: 7px;
   left: 0;
   
@@ -432,7 +432,7 @@ input[type="search"] {
 
 .slider__number {
   color: #ffffff;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 179px;
   
   letter-spacing: 0.01em;
@@ -444,7 +444,7 @@ input[type="search"] {
 
 .slider__products-text {
   color: #464646;
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 15px;
   letter-spacing: 0.01em;
   line-height: 2;
@@ -454,7 +454,7 @@ input[type="search"] {
 }
 
 .popular-items__list {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   
   font-size: 18px;
   letter-spacing: 0.01em;
@@ -516,7 +516,7 @@ input[type="search"] {
   background-color: transparent;
   border: none;
   cursor: pointer;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 18px;
   left: 0;
   letter-spacing: 0.2em;
@@ -542,7 +542,7 @@ input[type="search"] {
   top: 50%;
   width: 960px;
   z-index: 1000;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 18px;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -613,7 +613,7 @@ input[id="letter"] {
   top: 50%;
   right: 50%;
   
-  content: '';
+  content: "";
   margin-top: -14px;
   margin-right: -2px;
   background-color: #ffffff;
@@ -629,7 +629,7 @@ input[id="letter"] {
   right: 50%;
   margin-top: -14px;
   margin-right: -2px;
-  content: '';
+  content: "";
   background-color: #ffffff;
   transform: rotate(135deg);
   
@@ -640,7 +640,7 @@ input[id="letter"] {
 
 .wrap-decoration {
   background-color: #f0c52e;
-  content: '';
+  content: "";
   
   height: 10px;
   margin-top: -5px;
@@ -682,7 +682,7 @@ input[id="letter"] {
   border: solid 1px #000000;
   border-radius: 50%;
   box-sizing: content-box;
-  content: '';
+  content: "";
   height: 4px;
   
   left: 50%;
@@ -701,7 +701,7 @@ table {
 
 th {
   
-  font-family: 'Gilroy-light', sans-serif;
+  font-family: "Gilroy-light", sans-serif;
   font-size: 36px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -714,7 +714,7 @@ th {
 }
 
 td {
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 13px;
   font-weight: 300;
   letter-spacing: 0.01em;
@@ -744,7 +744,7 @@ tr {
 }
 
 .services__list {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 18px;
   height: 160px;
   left: 0;
@@ -783,7 +783,7 @@ tr {
 
 .services__list::before {
   background-color: #000000;
-  content: '';
+  content: "";
   height: 319px;
   position: absolute;
   right: 0;
@@ -800,7 +800,7 @@ tr {
 .services__container {
   background-color: inherit;
   color: #464646;
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   
   font-size: 15px;
   
@@ -815,7 +815,7 @@ tr {
 
 .services__container h2 {
   color: #000000;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 47px;
   font-weight: 800;
   letter-spacing: 0.01em;
@@ -882,7 +882,7 @@ tr {
 }
 
 .about-us__left h2, .about-us__right h2 {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   
   font-size: 47px;
   letter-spacing: 0.01em;
@@ -895,7 +895,7 @@ tr {
 
 .about-us__left h2::before, .about-us__right h2::before {
   background-color: #000000;
-  content: '';
+  content: "";
   height: 7px;
   
   left: 0;
@@ -909,7 +909,7 @@ tr {
   
   background-color: #ffffff;
   color: #464646;
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   font-size: 15px;
   letter-spacing: 0;
   line-height: 30px;
@@ -927,7 +927,7 @@ tr {
 /*}*/
 
 .about-us__left ul {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 16px;
   font-weight: 800;
   
@@ -1005,7 +1005,7 @@ footer a {
 .footer-top .logo {
   
   color: #f5d770;
-  font-family: 'Gilroyextra-bold', 'PT Sans', sans-serif;
+  font-family: "Gilroyextra-bold", "PT Sans", sans-serif;
   font-size: 48px;
   
   font-weight: 800;
@@ -1020,7 +1020,7 @@ footer a {
 .footer-top:after {
   background-color: #f5d770;
   bottom: -140px;
-  content: '';
+  content: "";
   
   height: 7px;
   
@@ -1063,7 +1063,7 @@ footer a {
   display: flex;
   flex-direction: row;
   
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 18px;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -1149,7 +1149,7 @@ footer a {
 
 .catalog-heading h1 {
   
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 47px;
   letter-spacing: 0.01em;
   line-height: 1.2;
@@ -1173,7 +1173,7 @@ footer a {
 
 .catalog-heading__bread-crumbs li {
   
-  font-family: 'OpenSans-light', sans-serif;
+  font-family: "OpenSans-light", sans-serif;
   
   font-size: 15px;
   font-weight: 300;
@@ -1199,7 +1199,7 @@ footer a {
   
   color: #000;
   
-  content: '';
+  content: "";
   height: 7px;
   position: absolute;
   right: -22px;
@@ -1247,7 +1247,7 @@ footer a {
   
   border-width: 0 5.5px 10px 5.5px;
   
-  content: '';
+  content: "";
   height: 1px;
   position: absolute;
   right: 30px;
@@ -1262,7 +1262,7 @@ footer a {
   border-width: 10px 5.5px 0 5.5px;
   color: #000;
   
-  content: '';
+  content: "";
   height: 1px;
   position: absolute;
   right: 0;
@@ -1270,7 +1270,7 @@ footer a {
 }
 
 .panel-filter__h3 {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 16px;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -1279,7 +1279,7 @@ footer a {
 }
 
 .panel-filter__list--h3 {
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   font-size: 16px;
   letter-spacing: 0.2em;
   line-height: 1.2;
@@ -1316,7 +1316,7 @@ footer a {
   background-color: #dbdbdb;
   display: flex;
   flex-direction: row;
-  font-family: 'Gilroyextra-bold', sans-serif;
+  font-family: "Gilroyextra-bold", sans-serif;
   
   font-size: 16px;
   letter-spacing: 0.2em;
